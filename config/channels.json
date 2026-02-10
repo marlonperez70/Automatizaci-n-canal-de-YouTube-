@@ -1,0 +1,55 @@
+{
+  "channels": [
+    {
+      "name": "AI Explained",
+      "channel_id": "UCNJ1Ymd5yFuUPtn21xtRbbw",
+      "priority": 1
+    },
+    {
+      "name": "Matthew Berman",
+      "channel_id": "UCbq6xnOwv0v6bA4kf1FxVEg",
+      "priority": 1
+    },
+    {
+      "name": "Two Minute Papers",
+      "channel_id": "UCbfYPyITQ-7l4upoX8nvctg",
+      "priority": 2
+    },
+    {
+      "name": "Wes Roth",
+      "channel_id": "UCDdhOb6fh9Y2X1TK6fN0LZA",
+      "priority": 2
+    },
+    {
+      "name": "Matt Wolfe",
+      "channel_id": "UCbXy65qGXd3yAkHKUBk4T9g",
+      "priority": 2
+    },
+    {
+      "name": "The AI Advantage",
+      "channel_id": "UCKxkPEOBz1SqNRWC_8IuCqQ",
+      "priority": 3
+    },
+    {
+      "name": "ColdFusion",
+      "channel_id": "UC4QZ_LsYcvcq7qOsOhpAX4A",
+      "priority": 3
+    },
+    {
+      "name": "DeepLearning.AI",
+      "channel_id": "UCgBncpylJ1kiVaPyP-PZauQ",
+      "priority": 1
+    },
+    {
+      "name": "Dr. Alan D. Thompson",
+      "channel_id": "UCVrmnnCCPm_S_BK5ARpvqxA",
+      "priority": 2
+    },
+    {
+      "name": "Fireship",
+      "channel_id": "UCsBjURrPoezykLs9EqgamOA",
+      "priority": 3,
+      "filter_keywords": ["AI", "Code Report"]
+    }
+  ]
+}

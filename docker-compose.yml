@@ -1,0 +1,33 @@
+version: '3.8'
+
+services:
+  youtube-automation:
+    build: .
+    container_name: youtube-ai-bot
+    restart: unless-stopped
+    
+    volumes:
+      # Persistencia de datos
+      - ./data:/app/data
+      - ./config:/app/config
+      - ./logs:/app/logs
+      
+    environment:
+      - PYTHONUNBUFFERED=1
+      - TZ=America/New_York
+      
+    env_file:
+      - .env
+    
+    # Ejecutar el scheduler que corre diariamente
+    command: python scripts/run_daily.py
+    
+    # Recursos (ajustar según tu máquina)
+    deploy:
+      resources:
+        limits:
+          cpus: '2'
+          memory: 4G
+        reservations:
+          cpus: '1'
+          memory: 2G
